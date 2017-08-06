@@ -22,6 +22,50 @@ public class Vehicle {
 		return this.speed;
 	};
 	
+	public int getEngine() {
+		return engine;
+	}
+
+	public void setEngine(int engine) {
+		this.engine = engine;
+	}
+
+	public int getDoors() {
+		return doors;
+	}
+
+	public void setDoors(int doors) {
+		this.doors = doors;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getModel() {
+		return model;
+	}
+
+	public void setModel(int model) {
+		this.model = model;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public void setSpeed(int speed) {
+		this.speed = speed;
+	}
+
 	public String ride(){
 		return "The vehicle number " + this.id + " moves on";
 	};
